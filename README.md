@@ -1,0 +1,1 @@
+KotlinでIntelliJプラグインを書いてみるテスト

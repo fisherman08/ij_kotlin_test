@@ -23,13 +23,8 @@
     -->
 
     <extensions defaultExtensionNs="com.intellij">
+        <fileTypeFactory implementation="com.ky_proj.ij_kotlin_test.filetype.SimpleFileTypeFactory"/>
     </extensions>
 
-    <actions>
-        <group id="IjKotlinTest.SampleMenu" text="Greeting" description="Greeting menu">
-            <add-to-group group-id="MainMenu" anchor="last"/>
-            <action id="IjKotlinTest.Textboxes" class="HelloAction" text="Hello" description="Says hello"/>
-        </group>
-    </actions>
 
 </idea-plugin>

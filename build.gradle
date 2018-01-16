@@ -14,14 +14,12 @@ buildscript {
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath "gradle.plugin.org.jetbrains:gradle-intellij-plugin:0.1.10"
-        classpath 'org.junit.platform:junit-platform-gradle-plugin:1.0.0'
     }
 }
 
 apply plugin: 'java'
 apply plugin: 'kotlin'
 apply plugin: 'org.jetbrains.intellij'
-apply plugin: 'org.junit.platform.gradle.plugin'
 
 sourceCompatibility = 1.8
 
@@ -32,27 +30,18 @@ repositories {
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 
-    testCompile 'org.junit.jupiter:junit-jupiter-api:5.0.0'
-    testRuntime 'org.junit.jupiter:junit-jupiter-engine:5.0.0'
-
-    testCompile 'org.jetbrains.spek:spek-api:1.1.5'
-    testRuntime 'org.jetbrains.spek:spek-junit-platform-engine:1.1.5'
-}
+    testCompile 'junit:junit:4.+'
+    }
 
 compileKotlin {
     kotlinOptions.jvmTarget = "1.8"
+    kotlinOptions.suppressWarnings = true
 }
 compileTestKotlin {
     kotlinOptions.jvmTarget = "1.8"
+    kotlinOptions.suppressWarnings = true
 }
 
-junitPlatform {
-    filters {
-        engines {
-            include 'spek'
-        }
-    }
-}
 
 intellij {
     version '2017.1'

@@ -30,6 +30,6 @@ class SimpleFileType private constructor() : LanguageFileType(SimpleLanguage.INS
     }
 
     companion object {
-        @JvmField val INSTANCE = SimpleFileType()
+        @JvmStatic val INSTANCE = SimpleFileType()
     }
 }

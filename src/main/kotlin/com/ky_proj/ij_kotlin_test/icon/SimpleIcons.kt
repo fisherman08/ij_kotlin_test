@@ -10,7 +10,7 @@ import javax.swing.*
 
 class SimpleIcons {
     companion object {
-        @JvmField val FILE = IconLoader.getIcon("/icons/jar-gray.png")
+        @JvmStatic val FILE = IconLoader.getIcon("/icons/jar-gray.png")
     }
 
 }

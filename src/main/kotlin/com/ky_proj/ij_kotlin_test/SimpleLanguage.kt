@@ -9,6 +9,6 @@ import com.intellij.lang.Language
 
 class SimpleLanguage :Language("SimpleLanguage") {
     companion object {
-        @JvmField val INSTANCE = SimpleLanguage()
+        @JvmStatic val INSTANCE = SimpleLanguage()
     }
 }

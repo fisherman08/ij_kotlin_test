@@ -55,6 +55,7 @@ junitPlatform {
 }
 
 intellij {
+    version '2017.1'
     pluginName "ij_kotlin_test"
 }
 group 'com.ky_proj'

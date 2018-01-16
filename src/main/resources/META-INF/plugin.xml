@@ -23,7 +23,7 @@
     -->
 
     <extensions defaultExtensionNs="com.intellij">
-        <fileTypeFactory implementation="com.ky_proj.ij_kotlin_test.com.ky_proj.ij_kotlin_test.filetype.SimpleFileTypeFactory"/>
+        <fileTypeFactory implementation="com.ky_proj.ij_kotlin_test.filetype.SimpleFileTypeFactory"/>
     </extensions>
 
 

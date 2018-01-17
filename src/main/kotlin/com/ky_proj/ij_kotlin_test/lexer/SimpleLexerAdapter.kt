@@ -1,7 +1,9 @@
 package com.ky_proj.ij_kotlin_test.lexer
 
+/**
+ * Created on 2018/01/17.
+ */
 import com.intellij.lexer.FlexAdapter
-import com.ky_proj.ij_kotlin_test.lexer.*
 
 import java.io.Reader
 

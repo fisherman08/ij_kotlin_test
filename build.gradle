@@ -47,5 +47,16 @@ intellij {
     version '2017.1'
     pluginName "ij_kotlin_test"
 }
+
+sourceSets {
+    main {
+        java { srcDir 'src/main/gen' }
+    }
+
+    test {
+        java { srcDir 'src/main/gen' }
+    }
+}
+
 group 'com.ky_proj'
 version '0.0.1'

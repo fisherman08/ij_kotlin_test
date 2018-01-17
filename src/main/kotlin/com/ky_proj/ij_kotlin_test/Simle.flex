@@ -2,7 +2,7 @@ package com.ky_proj.ij_kotlin_test.lexer;
 
 import com.intellij.lexer.FlexLexer;
 import com.intellij.psi.tree.IElementType;
-import com.ky_proj.SimpleTypes;
+import com.ky_proj.ij_kotlin_test.psi.SimpleTypes;
 import com.intellij.psi.TokenType;
 
 %%

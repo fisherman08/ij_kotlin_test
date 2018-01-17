@@ -9,3 +9,6 @@ local.properties
 
 build
 out
+
+jflex*.jar
+idea-flex.skeleton

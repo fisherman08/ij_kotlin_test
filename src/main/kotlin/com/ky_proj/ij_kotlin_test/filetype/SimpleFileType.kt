@@ -7,7 +7,6 @@ package com.ky_proj.ij_kotlin_test.filetype
 import com.intellij.openapi.fileTypes.LanguageFileType
 import com.ky_proj.ij_kotlin_test.SimpleLanguage
 import com.ky_proj.ij_kotlin_test.icon.SimpleIcons
-import org.jetbrains.annotations.*
 
 import javax.swing.*
 

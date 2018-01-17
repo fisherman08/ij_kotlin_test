@@ -5,6 +5,7 @@ package com.ky_proj.ij_kotlin_test.filetype
  */
 
 import com.intellij.openapi.fileTypes.*
+import com.ky_proj.ij_kotlin_test.filetype.SimpleFileType
 
 class SimpleFileTypeFactory : FileTypeFactory() {
     override fun createFileTypes(fileTypeConsumer: FileTypeConsumer) {

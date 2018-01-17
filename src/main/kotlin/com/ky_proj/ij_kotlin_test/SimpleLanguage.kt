@@ -7,7 +7,7 @@ package com.ky_proj.ij_kotlin_test
 import com.intellij.lang.Language
 
 
-class SimpleLanguage :Language("SimpleLanguage") {
+class SimpleLanguage :Language("Simple") {
     companion object {
         @JvmStatic val INSTANCE = SimpleLanguage()
     }
